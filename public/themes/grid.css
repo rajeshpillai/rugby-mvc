@@ -1,0 +1,59 @@
+/* 
+    Document   : grid
+    Created on : 6 Nov, 2011, 3:48:28 PM
+    Author     : rajesh
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+table {
+    border-collapse: collapse;
+}
+
+/*
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}*/
+.grid{
+    
+}
+.grid-container {
+    width:100%;
+    position: relative;
+}
+.grid-wrapper {
+    height:150px;
+    overflow:auto;
+    
+}
+
+
+table.grid-header-row th {
+    border: 1px solid #ddd;
+    padding: 3px 6px;
+    background-color: #F1F2F2;
+    /*font: 1.2em tahoma,arial,verdana,sans-serif;*/
+    /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);*/
+}
+
+.grid td {
+    overflow: hidden;
+    padding: 3px 6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.grid td  {
+    border: 1px solid #ddd;
+    font: 11px tahoma,arial,verdana,sans-serif;
+}
+
+
+
+
